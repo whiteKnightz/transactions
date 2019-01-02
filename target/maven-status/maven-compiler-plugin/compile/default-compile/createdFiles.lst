@@ -1,0 +1,7 @@
+com\Clusus\services\impl\TransactionProcessorXmlImpl.class
+com\Clusus\transactions\TransactionsApplication.class
+com\Clusus\models\Violation.class
+com\Clusus\transactions\controllers\TransactionProcessorController.class
+com\Clusus\models\Transaction.class
+com\Clusus\services\TransactionProcessor.class
+com\Clusus\services\impl\TransactionProcessorCsvImpl.class
