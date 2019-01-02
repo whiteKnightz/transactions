@@ -13,7 +13,5 @@
 #ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/transactions-0.1.0.jar"]
 FROM openjdk:8
 ADD target/transactions.jar transactions.jar
-#ADD src/main/java/com/Clusus/samples/sample.csv src/main/java/com/Clusus/samples/sample.csv
-#ADD src/main/java/com/Clusus/samples/sample.xml src/main/java/com/Clusus/samples/sample.xml
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","transactions.jar"]
